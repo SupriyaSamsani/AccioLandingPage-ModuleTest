@@ -1,0 +1,257 @@
+*{
+    font-style: italic;
+}
+.navbar{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    position: sticky;
+    top:0px;
+}
+.navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    position: sticky;
+}
+select{
+    border: none;
+}
+
+.batch {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: larger;  
+    display: flex; 
+    top:0px;
+    justify-content: center;
+}
+.launch {
+    padding:100px;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    display: flex;
+    border: 1px solid #E2E2E2;
+    width:50vw;
+ height:12vh;
+padding: 15px;
+border-radius: 8px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#student {
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 10px;
+}
+.details {
+    display: flex;
+}
+.career {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+#apply {
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+width: 98%;
+height: 60%;
+border: none;
+border-radius: 10px;
+font-family: ABeeZee;
+font-style: italic;
+}
+/* #signupbg {
+    width: 420px;
+    height: 400px;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+} */
+#signup {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    width: 24vw;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+input {
+    border: none;
+}
+.person {
+    background-color: #FAFAFA;
+    width: 97%;
+}
+
+.courses {
+    background-color: #ECF8FF;
+    padding: 100px;
+}
+.my-form1,.my-form2{
+    width: 500px;
+    height: 560px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 50px;
+    }
+    .my-form1>.begi ,.my-form2>.begi{
+        padding-top: 30px;
+        
+    }
+    .butons{
+        margin-top: 15px;
+    }
+td {
+    width: 50%;
+}
+
+#companies {
+    margin: 20px;
+    padding: 30px;
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(6, 6fr);
+    grid-template-rows: repeat(3, 3fr);
+    grid-auto-flow: ;
+}
+.partners {
+    text-align: center;
+    padding: 100px;
+}
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+/*.wall {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+}
+.reviews {
+    display: grid;
+    grid-template-areas: "a b d"
+    "a c"
+    "e  "
+    "f ";
+}
+.photo {
+    grid-area: a;
+}
+.name {
+    grid-area: b;
+}
+.profession {
+    grid-area: c;
+}
+.linkedin {
+    grid-area: d;
+}
+.review {
+    grid-area: e;
+}
+.date {
+    grid-area: a;
+} 
+.reviews  {
+    width: 350px;
+height: 260px;
+background-color: white;
+border-radius: 10px;
+box-shadow:0px 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.people {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+} */
+.my-review{
+    width: 400px;
+    height: 260px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+    grid-area: a;
+    }
+    .my-review2{
+        width: 400px;
+        height: 360px;
+        padding: 24px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px;
+        grid-area: b;
+    }
+    .my-review3{
+        width: 400px;
+        height: 310px;
+        padding: 24px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px;
+        grid-area: c;
+    }
+    .my-review4{
+        width: 400px;
+        height: 310px;
+        padding: 24px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px;
+        grid-area: d;
+    }
+    .my-review5{
+        width: 400px;
+        height: 190px;
+        padding: 24px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px;
+        grid-area: e;
+    }
+    .my-review6{
+        width: 400px;
+        height: 260px;
+        padding: 24px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px;
+        grid-area: f;
+    }
+    @media screen and (max-width:768px){
+        nav {
+            flex-direction: column !important;
+        }
+        #companies {
+            overflow: hidden;
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(18, 18fr);
+            height: fit-content;
+        }
+        .my-review,.my-review2,.my-review3,.my-review4,.my-review5,.my-review6{
+            margin-top: 20px;
+        }
+    }
