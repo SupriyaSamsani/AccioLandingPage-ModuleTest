@@ -245,7 +245,4 @@ flex-wrap: wrap;
             grid-template-rows: repeat(18, 18fr);
             height: fit-content;
         }
-        .my-review,.my-review2,.my-review3,.my-review4,.my-review5,.my-review6{
-            margin-top: 20px;
-        }
     }
